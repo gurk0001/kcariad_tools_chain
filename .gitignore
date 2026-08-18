@@ -1,0 +1,64 @@
+# ==============================================================================
+# Root Editor & System Files
+# ==============================================================================
+.DS_Store
+Thumbs.db
+*.log
+
+# Shared IDE/Editor configurations at root
+.vscode/
+.idea/
+
+# ==============================================================================
+# Frontend: React (Vite) - Target Paths
+# ==============================================================================
+# Dependencies
+frontend/node_modules/
+frontend/jspm_packages/
+
+# Production builds
+frontend/dist/
+frontend/dist-ssr/
+frontend/out/
+frontend/build/
+
+# Vite local files & caches
+frontend/.vite/
+frontend/.eslintcache
+
+# Local environment variables
+frontend/.env
+frontend/.env.local
+frontend/.env.*.local
+
+# TypeScript cache
+frontend/*.tsbuildinfo
+
+# ==============================================================================
+# Backend: Python (FastAPI) - Target Paths
+# ==============================================================================
+# Byte-compiled / optimized / DLL files
+backend/__pycache__/
+backend/*.py[cod]
+backend/*$py.class
+
+# Virtual environments (if created inside the backend folder)
+backend/venv/
+backend/.venv/
+backend/env/
+
+# Root-level or backend-level virtual environments
+venv/
+.venv/
+
+# Environment variables
+backend/.env
+backend/.env.*
+
+# Testing & coverage
+backend/.pytest_cache/
+backend/.coverage
+backend/htmlcov/
+backend/nosetests.xml
+backend/coverage.xml
+
